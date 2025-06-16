@@ -3,10 +3,10 @@ import { useRouter } from 'next/router';
 import axios from 'axios';
 import { motion } from 'framer-motion';
 import { Upload, FileText, Brain, Zap, Clock, Trophy, ArrowRight, Sparkles } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
+import { Button } from '../components/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
+import { Input } from '../components/ui/input';
+import { Label } from '../components/ui/label';
 
 const API_BASE_URL = 'http://localhost:8001';
 
